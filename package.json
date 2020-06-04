@@ -7,9 +7,9 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve --mode production",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test": "vue-cli-service serve --mode test"
+    "build-debug": "vue-cli-service build --mode debug"
   },
   "dependencies": {
     "core-js": "^3.4.3",

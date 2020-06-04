@@ -1,25 +1,21 @@
 # vue_pc
 
-## Project setup
-```
-yarn install
-```
+## Build Setup
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+``` bash
+# 安装依赖
+npm install
 
-### Compiles and minifies for production
-```
-yarn build
-```
+# 本地运行测试环境
+npm run serve
 
-### Lints and fixes files
-```
-yarn lint
-```
+# 本地运行正式环境
+npm run start
 
-## 附加
+# 正式环境带debug提示
+npm run build-debug
 
-### 多环境配置
+# 打包正式环境
+npm run build
+
+```
